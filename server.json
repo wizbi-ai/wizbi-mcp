@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.wizbi/wizbi",
+  "title": "WizBI",
+  "description": "Your organization's connected business data and its context, read with each person's permissions.",
+  "version": "1.0.1",
+  "websiteUrl": "https://wizbi.ai",
+  "icons": [
+    {
+      "src": "https://wizbi.ai/ds/favicon/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://wizbi.ai/ds/favicon/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": ["192x192"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wizbi.ai"
+    }
+  ]
+}

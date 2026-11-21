@@ -1,0 +1,13 @@
+{
+  "name": "wizbi",
+  "version": "1.0.1",
+  "description": "Your organization's connected business data and its context, read with each person's permissions. Read-only. Access is by invitation.",
+  "mcpServers": {
+    "wizbi": {
+      "httpUrl": "https://mcp.wizbi.ai",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}
