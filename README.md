@@ -93,43 +93,6 @@ gemini mcp add --transport http --scope user wizbi https://mcp.wizbi.ai
 
 Then run `/mcp auth wizbi` inside Gemini CLI. It opens your browser to sign in to WizBI.
 
-### Visual Studio Code
-
-```bash
-code --add-mcp '{"name":"wizbi","type":"http","url":"https://mcp.wizbi.ai"}'
-```
-
-Or add it to `.vscode/mcp.json` in a workspace:
-
-```json
-{
-  "servers": {
-    "wizbi": {
-      "type": "http",
-      "url": "https://mcp.wizbi.ai"
-    }
-  }
-}
-```
-
-VS Code asks you to sign in to WizBI the first time it starts the server.
-
-### Cursor
-
-Add it to `~/.cursor/mcp.json` (every project) or `.cursor/mcp.json` (one project):
-
-```json
-{
-  "mcpServers": {
-    "wizbi": {
-      "url": "https://mcp.wizbi.ai"
-    }
-  }
-}
-```
-
-Cursor asks you to sign in to WizBI when it connects.
-
 ### Other MCP clients
 
 Clients that run on your computer and support OAuth can usually connect to the same address. A web-based client that is not listed here may not be able to sign in yet; [let us know](https://wizbi.ai/contact) which one you use.
